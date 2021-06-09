@@ -21,6 +21,6 @@ ENV MODE="Production"
 ENV SERIAL_TTY=""
 ENV SERIAL_SOCKET=""
 
-EXPOSE 3000
+EXPOSE 3001
 
 ENTRYPOINT ["/infinitude/entrypoint.sh"]
