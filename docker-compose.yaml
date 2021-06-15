@@ -2,15 +2,15 @@ version: "2.1"
 
 services:
   infinitude:
-    container_name: infinitude_2
-    hostname: infinitude_2
+    container_name: infinitude
+    hostname: infinitude
     image: willclev/infinitude:latest
     build:
       context: .
       dockerfile: Dockerfile
     network_mode: host
     ports:
-      - "3001:3001"
+      - "3000:3000"
     volumes:
       - ./state:/infinitude/state
     environment:
