@@ -2,9 +2,9 @@ version: "2.1"
 
 services:
   infinitude:
-    container_name: infinitude
-    hostname: infinitude
-    image: nebulous/infinitude:latest
+    container_name: infinitude_2
+    hostname: infinitude_2
+    image: willclev/infinitude:latest
     build:
       context: .
       dockerfile: Dockerfile
