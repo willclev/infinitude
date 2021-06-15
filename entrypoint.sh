@@ -10,4 +10,4 @@ else
 	echo "MODE is set to $MODE";
 fi
 
-cd /infinitude_2 && ./infinitude_2 daemon -m $MODE
+cd /infinitude_2 && ./infinitude daemon -1 http://:3001
