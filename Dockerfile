@@ -1,7 +1,7 @@
 FROM debian:latest
 
 COPY . /infinitude
-WORKDIR /infinitude
+WORKDIR /infinitude_2
 
 RUN apt-get update \
 && apt-get install -y jq locales cpanminus libchi-perl libmojolicious-perl libdatetime-perl libxml-simple-perl libtry-tiny-perl libmoo-perl libjson-perl libjson-maybexs-perl libhash-asobject-perl libdata-parsebinary-perl libdigest-crc-perl libcache-perl libtest-longstring-perl libio-pty-perl libpath-tiny-perl \
@@ -23,4 +23,4 @@ ENV SERIAL_SOCKET=""
 
 EXPOSE 3001
 
-ENTRYPOINT ["/infinitude/entrypoint.sh"]
+ENTRYPOINT ["/infinitude_2/entrypoint.sh"]
