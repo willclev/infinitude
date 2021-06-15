@@ -4,7 +4,7 @@ services:
   infinitude:
     container_name: infinitude
     hostname: infinitude
-    image: willclev/infinitude:latest
+    image: willclev/infinitude_2:latest
     build:
       context: .
       dockerfile: Dockerfile
