@@ -1,6 +1,6 @@
 FROM debian:latest
 
-COPY . /infinitude
+COPY . /infinitude_2
 WORKDIR /infinitude_2
 
 RUN apt-get update \
